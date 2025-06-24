@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    letter-spacing: 3px;
+    text-indent: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    letter-spacing:2px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+.contentbx{
+    margin: 50px;
+    color: rgb(12, 12, 12);
+}
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 50px;
+    background-color:rgb(225, 225, 225, 0.6);
+    border-radius: 10px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown button{
+    padding: 10px 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
