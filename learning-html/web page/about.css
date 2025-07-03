@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: rgba(2, 2, 73, 0.705);
+}
+.headbx{
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    color: rgb(36, 36, 36);
+}
+.white{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 100px;
+}
+.Black{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.contbx{
+     margin: 30px;
+    padding: 20px;
+    background-color:rgb(225, 225, 225, 0.6);
+}
+p{
+    opacity: 0;
+    transform: translate(20px);
+    font-weight: bold;
+    animation: slideFade 5s backwards;
+}
+@keyframes slideFade {
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+    
+}
