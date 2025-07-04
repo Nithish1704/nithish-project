@@ -4,7 +4,8 @@
 }
 body{
     background-color:rgba(2, 2, 73, 0.705);
-}
+
+ }
 .navbar{
     text-align: end;
     margin-top: 50px;
@@ -34,9 +35,8 @@ body{
     border: right 50px;
     font-style: normal;
     padding: 10px;
-    background-image: url(image1.png);
-    background-repeat: no-repeat;
-}
+    display: flex;
+ }   
 .white{
     color: white;
     font-size: 60px;
