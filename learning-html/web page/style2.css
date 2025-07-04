@@ -4,7 +4,9 @@
 }
 body{
     background-color:rgba(2, 2, 73, 0.705);
-
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
  }
 .navbar{
     text-align: end;
