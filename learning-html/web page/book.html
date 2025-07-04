@@ -13,11 +13,26 @@
         <div class="contbx">
             <div class="formgrp">
                 <h2>Booking</h2>
-                <label for="location">Current Location:</label>
-                <input type="text" id="location" placeholder="Enter your location" required><br>
-                <label for="days">Rental days:</label>
-                <input type="datetime-local" id="days" placeholder="Enter days" required><br>
-
+                <div class="content-div">
+                    <label for="pick-up">Pick Up:</label>
+                    <select id="pick-up">
+                        <option value="none">----Select option----</option>
+                        <option value="Simmakkal">Simmakkal</option>
+                        <option value="Aathikulam">Aathikulam</option>
+                        <option value="Suriya-Nagar">Suriya Nagar</option>
+                    </select>
+                </div>    
+                <div class="content-div">
+                    <label for="location">Current Location:</label>
+                    <input type="text" id="location" placeholder="Enter your location" required>
+                </div>
+                <div class="content-div">
+                    <label for="days">Rental days:</label>
+                    <input type="datetime-local" id="days" placeholder="Enter days" required>
+                </div>
+                <div class="content-div">
+                    
+                </div>
             </div>
         </div>
 </body>
