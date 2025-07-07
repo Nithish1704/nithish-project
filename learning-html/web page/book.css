@@ -72,3 +72,7 @@ button:hover{
 button:active{
     color:red;
 }
+.button-div{
+    display: flex;
+    justify-content: center;
+}
