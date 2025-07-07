@@ -3,7 +3,7 @@ function registar(){
     let selectvalue=selectelement.value;
     console.log(selectvalue); 
     const location=document.getElementById("location").value;   
-    const day=document.getElementById("day").value;
+    const day=document.getElementById("days").value;
     const rettime=document.getElementById("returntime").value;
     const loc=localStorage.getItem("details");
     let data;
