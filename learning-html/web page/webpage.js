@@ -5,7 +5,6 @@ function showimg(){
 }
 function next(){
     i=(i+1)%img.length;
-    console.log(i);
     showimg();
 }
 function previous(){
