@@ -8,12 +8,12 @@ body{
     align-items: center;
  }
 .navbar{
-    text-align: end;
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 0px;
     margin-right: 40px;
 }
 .navbar a{
-    text-align: end;
+    text-align:center;
     padding: 3% 20px;
     color: white;
     text-decoration: none;
@@ -32,7 +32,7 @@ body{
  .headbx{  
     text-align:start;
     font-weight: bold;
-    margin: 150px;
+    margin: 105px;
     border: right 50px;
     font-style: normal;
     padding: 10px;
@@ -79,7 +79,7 @@ body{
 }
 .slider-div img{
     width: 75%;
-    display: block;
+    display:block;
 }
 .slider-div button{
     border: none;
@@ -94,10 +94,10 @@ body{
     background-color: rgb(58, 19, 19);
 }
 .slider-div button:nth-of-type(1){
-    right: 870px;
+    right: 875px;
 }
 .slider-div button:nth-of-type(2){
-    left: 160px;
+    left: 115px;
 }
 .icon{
     text-align: left;
@@ -109,7 +109,7 @@ body{
     font-size: 20px;
 }
 .fa-instagram:hover{
-    background-color: white;
+    color: white;
 }
 .fa-youtube{
     display: flex;
@@ -118,5 +118,13 @@ body{
     margin-left: 5px;
 }
 .fa-youtube:hover{
-    background-color: white;
+    color: white;
+}
+.fa-whatsapp{
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+}
+.fa-whatsapp:hover{
+    color: white;
 }
