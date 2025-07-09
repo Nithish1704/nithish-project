@@ -5,6 +5,12 @@ function submit() {
     console.log(passwordEl);
     let data;
     const El=localStorage.getItem("details");
+    if(nameEl==""&&emailEl==""){
+        alert("Enter all the details");
+    }
+    else{
+        alert("Successful");
+    }
     if(El){
         data=JSON.parse(El);
         data.push({name:nameEl,email:emailEl});
