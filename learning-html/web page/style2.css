@@ -99,3 +99,24 @@ body{
 .slider-div button:nth-of-type(2){
     left: 160px;
 }
+.icon{
+    text-align: left;
+    display: flex;
+}
+.fa-instagram{
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+}
+.fa-instagram:hover{
+    background-color: white;
+}
+.fa-youtube{
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.fa-youtube:hover{
+    background-color: white;
+}
