@@ -21,11 +21,11 @@ body{
 .navbar a{
     text-align:center;
     padding: 3% 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
     text-decoration: none;
 }
 .navbar a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -44,7 +44,7 @@ body{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    
+    min-height: 250px;
  }   
 .white{
     color: white;
