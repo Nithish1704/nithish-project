@@ -15,16 +15,17 @@ body{
 .navbar{
     text-align: center;
     margin-top: 0px;
-    margin-right: 40px;
+    margin-right: 0px;
+    background-color: #9baaa5;
 }
 .navbar a{
     text-align:center;
     padding: 3% 20px;
-    color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .navbar a:hover{
-    color: rgb(158, 158, 158);
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -43,6 +44,7 @@ body{
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    
  }   
 .white{
     color: white;
@@ -119,4 +121,12 @@ body{
 }
 .fa-whatsapp:hover{
     color: rgb(28, 245, 8);
+}
+.fa-github{
+    display: flex;
+    justify-content: start;
+    font-size: 20px
+}
+.fa-github:hover{
+    color: rgb(0, 0, 0);
 }
