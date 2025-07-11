@@ -79,7 +79,12 @@ body{
 }
 .slider-div img{
     width: 75%;
-    display:block;
+}
+.slide{
+    width:100%;
+    height: 100%;
+    display: none;
+    object-fit: cover;
 }
 .slider-div button{
     border: none;
@@ -89,6 +94,9 @@ body{
     font-size: 12px;
     position: absolute;
     background-color: rgba(87, 87, 87, 0.5);    
+}
+.previous, .next{
+    transform: translateY(-50%);
 }
 .slider-div button:hover{
     background-color: rgb(58, 19, 19);
@@ -109,7 +117,7 @@ body{
     font-size: 20px;
 }
 .fa-instagram:hover{
-    color: white;
+    color: rgba(231, 15, 141, 0.527);
 }
 .fa-youtube{
     display: flex;
@@ -118,7 +126,7 @@ body{
     margin-left: 5px;
 }
 .fa-youtube:hover{
-    color: white;
+    color: rgb(241, 8, 8);
 }
 .fa-whatsapp{
     display: flex;
@@ -126,5 +134,5 @@ body{
     font-size: 20px;
 }
 .fa-whatsapp:hover{
-    color: white;
+    color: rgb(28, 245, 8);
 }

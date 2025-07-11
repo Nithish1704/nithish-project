@@ -25,9 +25,11 @@
         </div>
         <div class="headbx">
             <div class="slider-div">
-                <img id="slide" src="image1.png">
-                <button onclick="previous()"><</button>
-                <button onclick="next()">></button>
+                <img id="slide" src="image1.png" class="slide" style="display: block;">
+                <img id="slide" src="images.png" class="slide">
+                <img id="slide" src="image3.png" class="slide">
+                <button class="previous" onclick="previous(-1)"><</button>
+                <button class="next" onclick="next(1)">></button>
             </div>
             <div class="title-div">
                 <h1><span class="white">Car And Bike</span><br>
